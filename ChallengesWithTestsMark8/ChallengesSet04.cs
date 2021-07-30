@@ -53,7 +53,7 @@ namespace ChallengesWithTestsMark8
 
         public bool IsStringANumber(string input)
         {
-            return int.TryParse(input, out var result1) || double.TryParse(input, out var result2);
+            return double.TryParse(input, out var result);
         }
 
         public bool MajorityOfElementsInArrayAreNull(object[] objs)
