@@ -87,6 +87,12 @@ namespace ChallengesWithTestsMark8
                 }
             }
 
+            //specific case
+            if (returnString == "")
+            {
+                return returnString;
+            }
+
             return returnString.TrimEnd() + ".";
         }
 
